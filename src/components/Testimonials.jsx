@@ -1,7 +1,7 @@
 
 const Testimonials = () => {
   return (
-    <section className="py-16 bg-slate-100">
+    <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4"> 
             <div className="text-center">
                 <h2 className="text-2xl">Loved by creators and teams worldwide</h2>

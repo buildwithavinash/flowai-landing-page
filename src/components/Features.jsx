@@ -28,23 +28,23 @@ const features = [
 const Features = () => {
 
     return (
-            <section className="py-24 bg-slate-100">
+            <section className="py-16 bg-white">
 
                 <div className="max-w-6xl mx-auto px-6">
 
-                    <div className="text-center mb-16">
-                        <h2 className="text-3xl font-bold">
+                    <div className="text-center">
+                        <h2 className="text-2xl font-semibold">
                             Powerful AI tools to create better content faster
                         </h2>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-3 gap-8 mt-8">
                         {features.map((f, i)=> (
-                            <div key={i} className="border border-slate-600 p-6 rounded-xl hover:shadow-md transition">
+                            <div key={i} className="border border-slate-300 p-6 rounded-xl hover:shadow-md transition">
 
                                 <h3 className="font-semibold text-lg mb-2">{f.title}</h3>
 
-                                <p className="text-slate-700">
+                                <p className="text-slate-700 text-sm">
                                     {f.desc}
                                 </p>
                             </div>

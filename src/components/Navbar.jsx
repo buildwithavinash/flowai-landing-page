@@ -15,11 +15,11 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="border-b border-slate-200 bg-white mt-1 relative">
+    <nav className="border-b border-slate-200 bg-white relative">
 
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between sm:px-6 py-4">
 
-        <h1 className="font-semibold flex-1 text-xl sm:text-2xl">
+        <h1 className="font-semibold flex-1 text-xl md:text-2xl">
           FlowAi
         </h1>
 
