@@ -1,4 +1,5 @@
 import Cta from "./components/Cta";
+import Faq from "./components/Faq";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -19,6 +20,7 @@ const App = () => {
       <How />
       <Testimonials />
       <Pricing />
+      <Faq />
       <Cta />
       <Footer />
     </div>
