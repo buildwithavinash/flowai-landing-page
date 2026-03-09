@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+
+.logo__scroll {
+    animation: scroll 30s linear infinite;
+}
+
+.logo__container:hover .logo__scroll {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+     from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
