@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="min-h-[85vh] flex items-center">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center space-y-1">
         <div className="inline-block mt-3 border border-slate-400 px-3 py-1.5 rounded-full text-xs text-slate-800 sm:px-4 sm:py-2  ">
           ✨ AI Powered Content Creation
         </div>
