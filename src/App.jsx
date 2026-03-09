@@ -1,8 +1,10 @@
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import How from "./components/How";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
+import Testimonials from "./components/Testimonials";
 import Trusted from "./components/Trusted";
 
 const App = () => {
@@ -13,6 +15,8 @@ const App = () => {
       <Hero />
       <Trusted />
       <Features />
+      <How />
+      <Testimonials />
       <Pricing />
       <Footer />
     </div>
