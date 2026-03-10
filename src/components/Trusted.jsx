@@ -2,7 +2,7 @@
 const Trusted = () => {
   const logos = ["Stripe", "Notion", "Shopify", "HubSpot", "Webflow", "Zapier"];
   return (
-    <section className="py-20 bg-slate-100">
+    <section className="py-20 bg-slate-100 lg:py-24">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-slate-900 font-semibold text-center text-2xl md:text-3xl lg:text-4xl mb-2">
           Trusted by creators and Startups worldwide

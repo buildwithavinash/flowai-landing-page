@@ -33,8 +33,8 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Buttons */}
-        <div className="hidden md:flex flex-1 justify-end items-center gap-3 sm:gap-4">
-          <button className="text-sm border border-transparent font-medium px-4 py-2 hover:border-slate-500 rounded-2xl">
+        <div className="hidden md:flex flex-1 justify-end items-center gap-3 sm:gap-4 *:cursor-pointer *:transition-all *:duration-200">
+          <button className="text-sm border border-transparent font-medium px-4 py-2 hover:bg-slate-800 hover:text-slate-100 rounded-2xl">
             Get Started
           </button>
 

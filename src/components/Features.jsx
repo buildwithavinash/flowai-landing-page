@@ -28,12 +28,12 @@ const features = [
 const Features = () => {
 
     return (
-            <section className="py-16 bg-white">
+            <section className="py-16 bg-white lg:py-20">
 
                 <div className="max-w-6xl mx-auto px-6">
 
                     <div className="text-center">
-                        <h2 className="text-2xl font-semibold">
+                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
                             Powerful AI tools to create better content faster
                         </h2>
                     </div>
@@ -42,9 +42,9 @@ const Features = () => {
                         {features.map((f, i)=> (
                             <div key={i} className="border border-slate-300 p-6 rounded-xl hover:shadow-md transition">
 
-                                <h3 className="font-semibold text-lg mb-2">{f.title}</h3>
+                                <h3 className="text-lg md:text-xl font-semibold mb-2">{f.title}</h3>
 
-                                <p className="text-slate-700 text-sm">
+                                <p className="text-sm text-slate-600">
                                     {f.desc}
                                 </p>
                             </div>
