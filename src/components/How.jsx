@@ -8,7 +8,7 @@ const How = () => {
             <p className="text-slate-600 mb-4 text-sm md:text-base">From idea to published content in less than a minute.</p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-4 mt-8 md:grid-cols-3">
 
                 <div className="border px-2 py-1 rounded-lg border-slate-500 hover:shadow-md transition-all duration-200">
                     <h3 className="text-lg mb-1 md:text-xl">Choose a Template</h3>
